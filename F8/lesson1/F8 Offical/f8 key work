@@ -1,0 +1,35 @@
+// 1. pop() : xóa phần tử cuối mảng và trả lại chính phần tử đã xóa (// Xóa elememt cuối mảng và trả về phần tử đã xóa)
+// 2. push('...') : thêm một hoặc nhiều phần từ cuối mảng và trả về độ dài mới của mảng 
+// 3. shift() : xóa 1 phần tử đầu mảng và trả về phần tử đã xóa 
+// 4. unshift('...') : thêm mốt hoặc nhiều phần tử đầu mảng và trả về dộ dài mới của mảng 
+// 5. Splice( , ,'') : cắt chuỗi , thêm chuỗi (1,1,'Dark')  (1: vi trí start xóa , 2:xóa bao nhiêu phần từ , 3: thêm 1 phần tử )
+// 6. Concat() : nối mảng
+// 7. Slice(bắt đầu, kết thúc) : cắt 1 vài hoặc nhiều elememts của mảng 
+// 8. Method: Phương thức
+// 9. Property: thuộc tính
+
+// 10. for - Lặp với điều kiện đúng
+// 11. for/in - Lặp qua key của đối tượng
+// 12. for/of - Lặp qua value của đối tượng
+// 13. While - Lặp khi điều kiện đúng
+// 14. do/While - Lặp ít nhất 1 lần sau đó lặp khi điều kiện đúng
+
+// 15. Break : thoát khỏi vòng lặp
+// 16. Continuce : bỏ qua vòng lặp
+
+// 17. define: định nghĩa
+
+// 18. Nested loop - Vòng lặp lồng nhau
+
+// 19. forEach() - tìm các phần tử trong mảng hoặc ..
+// 20. every() - tìm mỗi phần tử trong mảng nếu tất cả đều thỏa thì return true or false
+// 21. some()- tìm mỗi phần tử trong mảng nếu 1 trong 3 hoặc nhiều phần tử thỏa dk
+ thì return true or false
+// 22. find() - tìm 1 giá trị nào đó có trong mảng ( chỉ tìm dc 1 gia trị) nếu có 2 mảng và có 
+giá trị giống nhau thì lấy giá trị đầu tiên gặp
+// 23. filter() - giống find nhưng nó lại trả về tất cả phần tử nếu thoải dk
+
+// 24. Toán Tử 3 Ngôi: Ternary operator - Kiểm tra điều kiện var value = value_1 / value_2 (> < = ,..) 
+
+                                                         ? value_1 : value_2;
+// 25. Flat: "Làm phẳng" mảng từ Depth array - "Mảng sâu"                                              

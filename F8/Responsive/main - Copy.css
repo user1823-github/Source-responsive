@@ -1,0 +1,114 @@
+.nav {
+    height: 70px;
+    margin: 0% 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+.nav__item {
+    display: inline-block;
+}   
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+
+.nav__bar-btn {
+    display: none;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+
+    margin-left: 8px;
+}
+
+.nav__overlay {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    display: none;
+
+    animation: fadeIn ease-in 0.2s;
+}
+
+.nav__mobile {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+
+    transform: translateX(-100%);
+    transition: transform linear 0.2s, opacity linear 0.2s;  /* Trượt từ ngoài vào sử dụng
+                        transition vì có hỗ trợ animation */
+    opacity: 0;
+
+}
+
+.nav__mobile-list {
+    margin-top: 24px;
+
+}
+
+.nav__mobile-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0%;
+    font-size: 1.4rem;
+}
+
+.nav__mobile-close {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+
+    font-size: 1.4rem;
+    color: #666;
+    top: 0.4rem;
+    right: 1rem;
+}
+
+.nav__input {
+    display: none;
+}
+
+.nav__input:checked ~ .nav__overlay {
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+@media (max-width: 1023px) {
+    .nav__bar-btn {
+        display: block;
+    }
+
+    .nav__pc {
+        display: none;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;   /* Trong suốt vô hình */
+    }to {
+        opacity: 1;
+    }
+}
